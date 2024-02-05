@@ -1,0 +1,7 @@
+streamlit
+numpy
+cv2
+imutils
+pytesseract
+pandas
+time
