@@ -78,8 +78,7 @@ while True:
 
                 else:
                     st.error("No available parking spots.")
-        else:
-            st.warning("OCR did not recognize a license plate.")
+            
 
     available_spots = total_parking_spots - len(data_dict)
     if last_available_spots is None or available_spots != last_available_spots:
